@@ -72,9 +72,9 @@ def main():
     assignmentidmap = assignments[1]
     load_submissions('data/submissions', assignmentpointmap)
     print('''
-1. Student Grade
-2. Assignment Statistics
-3. Assignment Graph''')
+1. Student grade
+2. Assignment statistics
+3. Assignment graph''')
     choice = int(input("Enter your selection: "))
     if choice == 1:
         name = input("What is the student's name: ")
